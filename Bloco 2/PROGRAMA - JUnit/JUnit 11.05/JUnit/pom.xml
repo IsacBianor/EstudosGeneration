@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.Generation</groupId>
-	<artifactId>JUnit02</artifactId>
+	<artifactId>JUnit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JUnit02</name>
+	<name>JUnit</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -60,7 +60,7 @@
 			<artifactId>hsqldb</artifactId>
 		</dependency>
 	</dependencies> 
-	
+
 
 	<build>
 		<plugins>

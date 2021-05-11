@@ -1,4 +1,4 @@
-package org.Generation.JUnit02.Model;
+package org.Generation.JUnit.Modelo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

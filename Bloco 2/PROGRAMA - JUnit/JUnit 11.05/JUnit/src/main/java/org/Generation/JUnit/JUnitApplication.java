@@ -1,13 +1,13 @@
-package org.Generation.JUnit02;
+package org.Generation.JUnit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JUnit02Application {
+public class JUnitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JUnit02Application.class, args);
+		SpringApplication.run(JUnitApplication.class, args);
 	}
 
 }

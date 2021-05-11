@@ -1,15 +1,14 @@
-package org.Generation.JUnit02.Contato;
+package org.Generation.JUnit.Contato;
 
 
-import org.Generation.JUnit02.Model.ContatoModel;
-import org.Generation.JUnit02.Repository.ContatoRepository;
+import org.Generation.JUnit.Modelo.ContatoModel;
+import org.Generation.JUnit.Repository.ContatoRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
 
 
 //Run with rodará com o spring runner,
