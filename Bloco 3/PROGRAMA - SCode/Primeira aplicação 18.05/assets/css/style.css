@@ -1,5 +1,12 @@
 /*Padronização para as fontes das páginas*/
 
+.copy {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    size: 4pt;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
@@ -45,6 +52,7 @@ button {
     display: inline;
     justify-content: center;
     padding: 25pt;
+    size: 280pt;
 }
 
 #cabecalho li a {
