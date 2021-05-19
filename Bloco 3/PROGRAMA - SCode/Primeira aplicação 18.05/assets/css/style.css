@@ -8,6 +8,7 @@ p {
 h1 {
     font-family: 'Prata', serif;
     font-size: 36pt;
+    color: #080708;
 }
 
 h2 {
@@ -42,10 +43,36 @@ button {
 
 #cabecalho li {
     display: inline;
-    padding: 20pt;
+    justify-content: center;
+    padding: 25pt;
+}
+
+#cabecalho li a {
+    text-decoration: solid;
+    color: #080708;
+}
+
+#cabecalho li a:hover {
+    color: #00A5CF;
 }
 
 .inicial {
     display: flex;
     justify-content: space-between;
+}
+
+.musica {
+    display: flex;
+    justify-content: center;
+    size: 25pt;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.borda {
+    border-radius: 2%;
+    padding: 5pt;
 }
