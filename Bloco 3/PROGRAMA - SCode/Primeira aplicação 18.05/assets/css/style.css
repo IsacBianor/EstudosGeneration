@@ -1,0 +1,51 @@
+/*Padronização para as fontes das páginas*/
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 36pt;
+}
+
+h2 {
+    font-family: 'Prata', serif;
+    font-size: 20pt;
+}
+
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 18pt;
+}
+
+h4 {
+    font-family: 'Prata', serif;
+    font-size: 16pt;
+}
+
+h5 {
+    font-family: 'Prata', serif;
+    font-size: 14pt;
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+}
+
+#cabecalho li {
+    display: inline;
+    padding: 20pt;
+}
+
+.inicial {
+    display: flex;
+    justify-content: space-between;
+}
