@@ -35,18 +35,21 @@
         <div align="right ">
             <h3>Insira seu nome:</h3>
             <form>
-                <label for="nome ">Nome:</label> <br>
-                <input type="text " id: "nome ">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" onkeyup='validaNome()'>
+                <div id='txtNome'>  </div>
             </form>
             <p></p>
             <h3>Insira seu elogio para a Titi:</h3>
             <form>
-                <label for="elogio ">Elogio:</label> <br>
-                <textarea name="elogio " id="elogio " cols="25 " rows="7 "></textarea>
+                <label for="elogio ">Elogio:</label> <br> 
+                <textarea name="elogio" id="elogio" cols="40" rows="10" onkeyup="validaElogio()"></textarea>
+                
+                <div id="txtElogio"></div>
             </form>
             <p></p>
             <form>
-                <button>Au enviar au</button>
+                <button onclick='enviar()'> Auau enviar au</button>
             </form>
         </div>
     </div>
@@ -57,8 +60,8 @@
             Todos os direitos reservados para: Isac Bianor &copy;
         </p>
     </footer>
-</body>
 
-</html>
+    <script src="assets/js/script.js"></script>
+</body>
 
 </html>

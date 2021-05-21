@@ -84,3 +84,13 @@ button {
     border-radius: 2%;
     padding: 5pt;
 }
+
+#txtElogio{
+    font-family: 'Prata', serif;
+    font-size: 10pt;
+}
+
+#txtNome{
+    font-family: 'Prata', serif;
+    font-size: 10pt;
+}
