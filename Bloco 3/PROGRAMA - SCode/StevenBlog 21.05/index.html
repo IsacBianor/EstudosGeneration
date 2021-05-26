@@ -9,13 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" type="imagem/png" href="assets/img/Steven_Universe_Logotype.png" />
 
         <style>
           .d-block{
             width: 40px;
             height: 550px;
           }
-          p, h3, h4, h6{
+          p, h3, h6, .formulario_cor{
             font-family: 'KoHo', sans-serif;
             color: #C1E1F2;
           }
@@ -30,8 +31,27 @@
             background-attachment: fixed;
             background-size: cover;*/
           }
-          card{
-            background: #04092A;
+          .card, .form-control{
+            background-color: #04092A!important
+          }
+          .bord{
+            color: #5D68B3;
+          }
+          .navbar-cor{
+            background-color: #5D68B3;
+          }
+          .nav-link, .dropdown-item, h4{
+            color:#00041E;
+            font-family: 'KoHo', sans-serif;
+            font-weight: bold;
+          }
+          h4{
+            background-color: #5D68B3;
+          }
+          .botao{
+            background-color: #04092A;
+            font-family: 'KoHo', sans-serif;
+            color: #C1E1F2;
           }
         </style>
     <title>Steven Universo Blog!</title>
@@ -48,7 +68,7 @@
         <img class="card-img-top" src="assets/gif/508965.gif" alt="Imagem de capa do card">
       </div>
       <!--/Card-->
-      <nav class="navbar navbar-expand-lg p-3 mb-2 bg-dark text-white">
+      <nav class="navbar navbar-expand-lg p-3 mb-2 navbar-cor">
         <img src="assets/img/Steven_Universe_Logotype.png" alt="" width="150">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
@@ -78,6 +98,9 @@
           <span class="navbar-text">
             <a href="https://www.linkedin.com/in/isac-bianor-amador-silva-09ab071b5/" target="_blank"><img src="assets/img/logo/LinkedIn.png" alt="" width="40"></a>
           </span>
+          <span class="navbar-text ml-2">
+            <a href="https://www.instagram.com/bianorio/" target="_blank"><img src="assets/img/logo/instagram.png" alt="" width="35"></a>
+          </span>
         </div>
       </nav>
         <!--/Barra de navegação-->
@@ -90,7 +113,7 @@
       <div class="container d-flex justify-content-center">
         <div class="row mt-5 mb-5">
           <div class="col-md-6">
-            <h2>Titulo</h2>
+            <h2>Steven Universo</h2>
             <p>
               Steven Universo segue as aventuras de Steven, um garoto que herdou uma poderosa missão e, junto de seus amigos Garnet, Ametista e Perola, precisarão proteger o mundo de certas ameaças. Enquanto Steven tenta descobrir como usar sua herança, ele passa seus dias na Beach City se divertindo com sus amigues.
             </p>
@@ -109,7 +132,7 @@
 
      
     <!--Musica-->
-    <div id="musica" class="mt-5 mb-5 container">
+    <div id="musica" class="container">
       <h2>Músicas</h2>
       <!--Carrossel 1-->
     <div id="refletir" class="mt-5 mb-5">
@@ -313,18 +336,18 @@
     <!--Formulário-->
     <form>
       <div class="container mt-5 mb-5" id="sugestoes">
-        <h2>Formulário</h2>
+        <h2>Formulário para sugestões</h2>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Nome</label>
-          <input type="nome" class="form-control" id="exampleFormControlInput1">
+          <label class="formulario_cor" for="exampleFormControlInput1">Nome</label>
+          <input type="nome" class="form-control bord" id="exampleFormControlInput1">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nome@exemplo.com">
+          <label class="formulario_cor" for="exampleFormControlInput1">Email</label>
+          <input type="email" class="form-control bord" id="exampleFormControlInput2" placeholder="nome@exemplo.com">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect2">O que deseja fazer?</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
+          <label class="formulario_cor" for="exampleFormControlSelect2">O que deseja fazer?</label>
+          <select multiple class="form-control bord" id="exampleFormControlSelect2">
             <option>1. Sugestão</option>
             <option>2. Elogio</option>
             <option>3. Reclamação</option>
@@ -332,17 +355,21 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Sugestão</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label class="formulario_cor" for="exampleFormControlTextarea1">Sugestão</label>
+          <textarea class="form-control bord" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div>
+          <button type="button" class="botao">Enviar</button>
         </div>
       </form>
       </div>
+      
     <!--/Formulário-->
 
           
 
     <!--Rodapé-->
-      <hr>
+      <hr color= #5D68B3 >
       <footer class="container d-flex justify-content-center">
         <p>
           Direitos do site reservados para Isac Bianor &copy;
