@@ -1,0 +1,8 @@
+#img-bg{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Nonbinary_flag.svg/1200px-Nonbinary_flag.svg.png);
+
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
