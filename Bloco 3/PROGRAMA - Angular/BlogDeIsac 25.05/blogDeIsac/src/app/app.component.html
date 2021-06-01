@@ -1,1 +1,5 @@
+<app-menu *ngIf='auth.logade()'></app-menu>
+
 <router-outlet></router-outlet>
+
+<app-rodape *ngIf='auth.logade()'></app-rodape>
