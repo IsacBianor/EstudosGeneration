@@ -24,6 +24,7 @@ export class MenuComponent implements OnInit {
     environment.token = ''
     environment.nome = ''
     environment.foto = ''
+    environment.id = 0
   }
 
 }
