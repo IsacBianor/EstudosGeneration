@@ -4,3 +4,7 @@
 a{
     cursor: pointer;
 }
+.rounded-circle{
+    height: 70px;
+    width: 70px;
+}
