@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.prod';
 import { Tema } from '../model/Tema';
+import { AlertasService } from '../service/alertas.service';
 import { TemaService } from '../service/tema.service';
 
 @Component({
@@ -16,7 +17,8 @@ export class TemaComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private temaService: TemaService
+    private temaService: TemaService,
+    private alertas: AlertasService
   ) { }
 
   ngOnInit() {
@@ -24,6 +26,11 @@ export class TemaComponent implements OnInit {
     {
       //alert("Sua sessão expirou. Faça o login novamente.")
       this.router.navigate(['/login'])
+    }
+
+    if(environment.tipo != 'adm'){
+      this.alertas.showAlertInfo('Você precisa ser adm para acessar essa rota.')
+      this.router.navigate(['/inicio'])
     }
 
     this.findAllTemas()
